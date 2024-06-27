@@ -1,0 +1,102 @@
+
+//usage of html==> develop the static webpage
+//web==>collection of websites 
+//webpages ==>single html file
+//website==> collection of webpages.
+bootstrap is framework of CSS(predefined styles)
+we use CSS to make website more attractive
+
+HTML is not a programming language, it is a markup langauage as it is made of tags
+static webpage==>dynmaic webpage==>we use javascript to change 
+==>basic structure of HTML
+<html>==>ENTIRE DOCUEMNT 
+    <head>==> INFORMATION ABOUT THE WEBPAGE
+        <meta>==>gives additional data about the webpage 
+    </head>
+    <body>//content of the webpage
+
+    </body>
+</html>
+---------------------------------------->
+syntax for html element
+    opening tag     closing tag
+    <tagName attrName="attrValue">Content</tagName>
+
+
+Entire HTML element is made up of Tags and attributes
+
+h1,h2,h3,h4,h5---->Heading
+p--->paragraph
+b--->bold
+i--->italic
+u---->underline
+sup==>superscript[text will be available above the baseline of normal text]
+sub-->subscript[text will be available below the baseline of the normal text]
+ big-->increase the font size by 1 
+ small-->decrease the font size by 1
+ code-->change the font face
+ del-->it will have a line though over the text
+ cite-->non blocking tag with italic styling
+ address-->blocking tag with italic styling 
+
+
+ ol-Numbered  list [type=1|a|A|i]
+ ul--bulleted list[type=disc|circle|square]
+ li--list items
+ dl-definition list
+ dt--definition term
+ dd-data definition
+
+
+<a> ---anchor tag==>used to link webpages[Navigate from one page to another]
+    Attributes href=mention or give the url to which u want the page to divert"url"; target=_blank[new tab] this will open the url in a new tab,_self[same frame]
+1.Text link
+2.Image link
+3.Bookmark link
+4.Email link 
+
+img-Image[src=imagepath" alt="alternatetext" height="" width=""]
+
+table tag[border-0|1][border color=""][bgcolor=""][height="" width=""]
+--->[cellpadding(space between the border of the cell and content of the cell)]
+[cellspacing(space between two cells)]
+caption
+tr 
+td 
+th 
+----------------------------------------------------------------------------------------
+DAY-02
+
+Form tag
+-label
+-input 
+   -single line input
+    -has many attributes 
+        1.text
+        2.Numbered
+        3.password 
+        4.tel 
+        5.url 
+        6.email 
+        7.search 
+        8.checkbox
+        9.radio -->name attribute is must for radio button(both should have same name, it is used when only one radio button should be choosen)
+        10.button 
+        11.submit
+        12.reset 
+        13.file 
+        14.range 
+        15.color 
+        16.date 
+        17.week
+        18.month 
+        19.datetime-locale 
+        20.time 
+-MULTOPLE LINE INPUT 
+    TEXT AREA 
+        1.rows--->height of the text AREA
+        2.cols--> width of the text area 
+
+    DROPDOWN 
+        SELECT 
+            1.

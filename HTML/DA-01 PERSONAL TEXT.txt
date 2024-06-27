@@ -1,0 +1,34 @@
+
+//usage of html==> develop the static webpage
+//web==>collection of websites 
+//webpages ==>single html file
+//website==> collection of webpages.
+bootstrap is framework of CSS(predefined styles)
+we use CSS to make website more attractive
+
+HTML is not a programming language, it is a markup langauage as it is made of tags
+static webpage==>dynmaic webpage==>we use javascript to change 
+==>basic structure of HTML
+<html>==>ENTIRE DOCUEMNT 
+    <head>==> INFORMATION ABOUT THE WEBPAGE
+        <meta>==>gives additional data about the webpage 
+    </head>
+    <body>//content of the webpage
+
+    </body>
+</html>
+---------------------------------------->
+syntax for html element
+    opening tag     closing tag
+    <tagName attrName="attrValue">Content</tagName>
+
+
+Entire HTML element is made up of Tags and attributes
+
+h1,h2,h3,h4,h5---->Heading
+p--->paragraph
+b--->bold
+i--->italic
+u---->underline
+sup==>superscript[text will be available above the baseline of normal text]
+sub-->subscript[text will be available below the baseline of the normal text]

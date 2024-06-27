@@ -1,0 +1,14 @@
+1.Initial phase
+       It is defining the value of state and props
+2.Mounting phasee
+    a.constructor()--> used to construct a class component 
+    b.getDerivedStateFromProps()-->used to get the value from state and proprs
+    c.render()--->used to render the components over the browser/ used to render the webpage
+    d.componentDidMount()--<used to work with the side effect[i.e:HTTP request]
+
+3.Updating phase
+    a.getDerivedStateFromProps()==>used to get the value from state and props
+    b.shouldComponentUpdate()==>used to declare whether component should update or not?
+    c.render()==>used to render the webpage
+    d.getSnapshotBeforeUpdate()==>used to store the previous state and props values
+    e.componentDidUpdate()==>used to work with side effects 
